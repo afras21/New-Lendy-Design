@@ -5996,6 +5996,7 @@ img.nopad-mob {
   font-size: 30px;
   text-align: center;
   padding: 30px 0 90px 0;
+  font-family: 'Open Sans';
 }
 
 .completed-homes .brand {
@@ -6114,10 +6115,11 @@ header {
         header nav .menu ul li a {
           padding: 12px 14px !important;
           display: block;
-          font-family: 'Open Sans', sans-serif;
           font-size: 16px;
           color: #fff;
           font-weight: 100; 
+          font-family: 'Open Sans';
+
         }
     }
   header nav .menu ul li {
