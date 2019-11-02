@@ -5904,6 +5904,12 @@ img.nopad-mob {
   width: 75% !important;
 }
 
+/* @media screen and (max-width: 767px) {
+.completed-homes {
+  display: none;
+}
+} */
+
 
 
 
