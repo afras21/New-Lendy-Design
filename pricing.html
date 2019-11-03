@@ -13,8 +13,56 @@
     background: #ffe7a3;
     padding: 1%;
     width: 20%;
-    box-shadow: 0px 0px 3px #999;
 }
+ul {
+  list-style-type: none;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-list-check {
+    color: #F4725E;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.fa-check-circle:before {
+    content: "\f058";
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.free-details {
+    padding-left: 00px;
+    padding-right: 00px;
+}
+.list-display-check {
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 0px;
+    text-underline-position: under;
+    text-decoration: none;
+    transition: text-decoration-line 0.5s ease 0s;
+    margin-top: 15px;
+}
+@media (max-width: 600px) {
+    .list-display-check {
+    text-align: start;
+}
+}
+@media (min-width: 992px) {
+    .col-md-8 {
+    width: 66.66667%;
+}
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -115,7 +163,7 @@ header nav .menu ul li a {
 
 /* Style the counter cards */
 .cardP {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
   padding: 70px;
   text-align: center;
   background-color: #f1f1f1;
@@ -157,7 +205,7 @@ header nav .menu ul li a {
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
   padding: 16px;
   text-align: center;
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
   width: 23.5%;
   margin-left: 1%;
   float: left;
@@ -328,33 +376,53 @@ header nav .menu ul li a {
         </div>
 
 </div>
-<div style="margin-top: 5%;" class="rowmultiple">
+<div style="margin-top: 2%;" class="rowmultiple">
         <div class="columnmultiple">
                 <div class="cardMultiple">
-                  <p style="">100% transparancy in pricing</p>
+                  <p class="list-display-check"><img style="width: 35px;" src="./img/tick.png"/> 100% transparancy in pricing</p>
                 </div>
         </div>
         <div class="columnmultiple">
                 <div class="cardMultiple">
-                  <p style="">Clear policies</p>
+                  <p class="list-display-check"><img style="width: 35px;" src="./img/tick.png"/>Clear policies</p>
                 </div>
         </div>
         <div class="columnmultiple">
                 <div class="cardMultiple">
-                  <p style="">Trusted partners</p>
+                  <p class="list-display-check"><img style="width: 35px;" src="./img/tick.png"/>Trusted partners</p>
                 </div>
         </div>
         <div class="columnmultiple">
                 <div class="cardMultiple">
-                  <p style="">Assured quality</p>
+                  <p class="list-display-check"><img style="width: 35px;" src="./img/tick.png"/>Assured quality</p>
                 </div>
         </div>
 </div>
-
-
-<div style="margin-top: 5%; text-align: center;">
-    <input style="" class="submitButton"  type="submit" value="Get an instant quote" />
+<div style="margin-top: 2%; text-align: center;">
+    <input  class="submitButton"  type="submit" value="Get an instant quote" />
 </div>
+<!-- <div style="padding: 10%;">
+    <div class="col-md-8 free-details"  id="three">
+        <div class="row" id="FullQa">
+          <h1 class="marketing-tool-heading"><b>Features</b><span>
+              <div class="col-md-12" style="padding-left: 00px">
+            <div class="col-md-12" style="padding-right: 00px;padding-left: 00px">
+             <ul>
+                <li class="list-display-check"><img style="width: 30px;" src="./img/tick.png"/> 100% transparancy in pricing</li>
+                <li class="list-display-check"><img style="width: 30px;" src="./img/tick.png"/>Clear policies</li>
+                <li class="list-display-check"><img style="width: 30px;" src="./img/tick.png"/>Trusted partners</li>
+                <li class="list-display-check"><img style="width: 30px;" src="./img/tick.png"/>Assured quality</li>
+              </ul>
+            </div>
+          </div>
+        </div> 
+      </div>
+</div> -->
+
+
+
+
+
 
 <!-- <div style="margin-left: 10%; margin-right: 10%; margin-top: 2%;" class="card"> -->
 
@@ -466,66 +534,5 @@ header nav .menu ul li a {
             </div>
         </div>
     </div>
-
-
-<!-- multi cards -->
-
-<!-- <div  class="row">
-  <div class="column">
-    <div class="card">
-      <h3>Shoerack</h3>
-      <p>Some text</p>
-      <p>Some text</p>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <h3>TV unit</h3>
-      <p>Some text</p>
-      <p>Some text</p>
-    </div>
-  </div>
-  
-  <div class="column">
-    <div class="card">
-      <h3>Utility unit</h3>
-      <p>Some text</p>
-      <p>Some text</p>
-    </div>
-  </div>
-</div>
-<div style="margin-top: 2%;" class="row">
-    <div class="column">
-        <div class="card">
-          <h3>MBR Wardrobe</h3>
-          <p>Some text</p>
-          <p>Some text</p>
-        </div>
-      </div>
-  
-    <div class="column">
-      <div class="card">
-        <h3>KBR Wardrobe</h3>
-        <p>Some text</p>
-        <p>Some text</p>
-      </div>
-    </div>
-    
-    <div class="column">
-      <div class="card">
-        <h3>GBR Wardrobe</h3>
-        <p>Some text</p>
-        <p>Some text</p>
-      </div>
-    </div>
-    
-  </div>
-  <div style="margin-top: 2%; margin-left: 5%; margin-right: 5%;" class="row">
-      <div class="card">
-          <h3>KItchen Unit</h3>
-      </div>
-  </div> -->
-
 </body>
 </html>
